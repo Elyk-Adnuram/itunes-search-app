@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders without crashing 1`] = `
+<div>
+  <div
+    id="header"
+  >
+    <header>
+      <img
+        alt="BRALE LOGO"
+        className="image"
+        src="logo.png"
+      />
+       
+    </header>
+  </div>
+  <nav
+    className="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="navbarScroll"
+    >
+      <form
+        bg="dark"
+        className="d-flex"
+      >
+        <input
+          aria-label="Search"
+          className="mr-2 form1"
+          onChange={[Function]}
+          placeholder="Search"
+          type="search"
+          value=""
+        />
+        <select
+          aria-label="Default select example"
+          className="form2"
+          onChange={[Function]}
+          value="all"
+        >
+          <option>
+            movie
+          </option>
+          <option>
+            podcast
+          </option>
+          <option>
+            music
+          </option>
+          <option>
+            musicVideo
+          </option>
+          <option>
+            audiobook
+          </option>
+          <option>
+            shortFilm
+          </option>
+          <option>
+            tvShow
+          </option>
+          <option>
+            software
+          </option>
+          <option>
+            ebook
+          </option>
+          <option>
+            all
+          </option>
+        </select>
+        <button
+          className="buttnav buttnav-outline-success"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <b>
+            Search
+          </b>
+        </button>
+      </form>
+      <div
+        className="mr-auto my-2 my-lg-0 navbar-nav navbar-nav-scroll"
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "maxHeight": "200px",
+          }
+        }
+      />
+    </div>
+  </nav>
+  <div
+    className="container container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-10"
+      >
+        <div />
+      </div>
+      <div
+        className="col-sm-2"
+      >
+        <h5>
+          Favourites
+        </h5>
+        <div
+          id="fav"
+        >
+          No Favourites Added
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing Main component 1`] = `
+<div>
+  <div
+    id="header"
+  >
+    <header>
+      <img
+        alt="itunes logo"
+        className="image"
+        src="logo.jpg"
+      />
+       
+    </header>
+  </div>
+  <nav
+    className="navbar navbar-expand-lg navbar-light bg-light"
+  >
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="navbarScroll"
+    >
+      <form
+        bg="dark"
+        className="d-flex"
+        onSubmit={[Function]}
+      >
+        <input
+          aria-label="Search"
+          className="mr-2 form1"
+          onChange={[Function]}
+          placeholder="Search"
+          type="search"
+          value=""
+        />
+        <select
+          aria-label="Default select example"
+          className="form2"
+          onChange={[Function]}
+          value="all"
+        >
+          <option>
+            movie
+          </option>
+          <option>
+            podcast
+          </option>
+          <option>
+            music
+          </option>
+          <option>
+            musicVideo
+          </option>
+          <option>
+            audiobook
+          </option>
+          <option>
+            shortFilm
+          </option>
+          <option>
+            tvShow
+          </option>
+          <option>
+            software
+          </option>
+          <option>
+            ebook
+          </option>
+          <option>
+            all
+          </option>
+        </select>
+        <button
+          className="buttnav buttnav-outline-success"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          <b>
+            Search
+          </b>
+        </button>
+      </form>
+      <div
+        className="mr-auto my-2 my-lg-0 navbar-nav navbar-nav-scroll"
+        onKeyDown={[Function]}
+        style={
+          Object {
+            "maxHeight": "200px",
+          }
+        }
+      />
+    </div>
+  </nav>
+  <div
+    className="container container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="spinner col-sm-10"
+      >
+        <div />
+      </div>
+      <div
+        className="col-sm-2"
+      >
+        <h5>
+          Favourites
+        </h5>
+         
+        <div
+          id="fav"
+        >
+          No Favourites Added
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
